@@ -19,7 +19,7 @@ document.getElementById("button").addEventListener('click', function(){
     let second= document.getElementsByClassName("number")[0];
     const heading2= document.createElement("span");
     const text2= document.createTextNode("Quantity:  ");
-    let count= document.getElementById("quant").value;
+    let count= document.getElementById("quantity").value;
     const child2= document.createElement("span");
     child2.classList.add("order");
     heading2.classList.add("text");
