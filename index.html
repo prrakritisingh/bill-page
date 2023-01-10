@@ -21,9 +21,9 @@
                 <li style="float:right"><a class="active" href="#logout">Logout</a></li>
             </ul>
         </div>
-
         <div class="wishlist">
-            <form>
+            <!-- <form> -->
+            <div class="inline">
                 <h3 class="section">Add Item</h3>
                 <div class="row">
                     <div class="col-25">
@@ -49,32 +49,31 @@
                 </div>
                 <div class="row">
                     <div class="col-25">
-                        <label id="quantity" for="quantity">Quanity</label>
+                        <label id="quant" for="quantity">Quanity</label>
                     </div>
                     <div class="col-75">
                         <input type="text" id="quantity" name="quantity" placeholder="Enter Quantity..">
                     </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="comment">Add Comment</label>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="comment">Add Comment</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="comment" name="comment" placeholder="Write something.."
+                                style="height:100px"></textarea>
+                        </div>
                     </div>
-                    <div class="col-75">
-                        <textarea id="comment" name="comment" placeholder="Write something.."
-                            style="height:100px"></textarea>
+                    <br>
+                    <div class="row">
+                        <button id="button" type="button"> Confirm </button>
                     </div>
+                    <!-- </form> -->
                 </div>
-                <br>
-                <div class="row">
-                    <input id="button" type="submit" value="Confirm">
-                </div>
-            </form>
-
+            </div>
+            <div class="billsection">
+            </div>
         </div>
-        <div class="billsection">
-            <h1 id="bill"></h1>
-        </div>
-    </div>
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
