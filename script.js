@@ -8,8 +8,8 @@ document.getElementById("button").addEventListener('click', function(){
     const heading1= document.createElement("span");
     let item= document.getElementById("item").value;
     const child1= document.createElement("span");
-    heading1.classList.add("text");
-    child1.classList.add("order");
+    heading1.classList.add("col-25");
+    child1.classList.add("col-75");
     heading1.appendChild(text1);
     first.appendChild(heading1);
     child1.innerText = item;
@@ -21,8 +21,8 @@ document.getElementById("button").addEventListener('click', function(){
     const text2= document.createTextNode("Quantity:  ");
     let count= document.getElementById("quantity").value;
     const child2= document.createElement("span");
-    child2.classList.add("order");
-    heading2.classList.add("text");
+    child2.classList.add("col-75");
+    heading2.classList.add("col-25");
     heading2.appendChild(text2);
     second.appendChild(heading2);
     child2.innerHTML=count;

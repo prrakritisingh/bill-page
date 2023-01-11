@@ -115,9 +115,8 @@ label {
 .wishlist {
   margin-top: 30px;
   width: 100%;
-  height: 60%;
-  background-color: #333;
-  background: url(bgwishlist1.jpg);
+  height: 80%;
+  background-color: rgb(224, 213, 213);
   display: flex;
   flex-direction: row;
 }
@@ -128,5 +127,21 @@ label {
 }
 
 .inline{
-  display: inline-block;
+  display: block;
+  width: 35%;
+  height: 50%;
+  float: left
+
+}
+
+/* #wishlist{
+  display: flex;
+} */
+
+.billsection{
+  width: 15%;
+  height: 50%;
+  float: right;
+  align-items: flex-end;
+  color: #ccc;
 }
