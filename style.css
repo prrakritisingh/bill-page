@@ -138,10 +138,32 @@ label {
   display: flex;
 } */
 
-.billsection{
+#billsection{
   width: 15%;
   height: 50%;
   float: right;
   align-items: flex-end;
   color: #ccc;
+}
+.hidden{
+  display: none;
+}
+#button2{
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  background-color: #7b63be;
+}
+
+#button2:hover {
+  background-color: #a187e6;
+}
+
+.one1{
+  text-align: center;
+  margin-top: 10px;
+  display: none;
 }

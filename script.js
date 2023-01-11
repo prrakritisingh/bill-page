@@ -28,12 +28,16 @@ document.getElementById("button").addEventListener('click', function(){
     child2.innerHTML=count;
     second.appendChild(child2);
     console.log(child2);
-    let third= document.getElementsByClassName("final")[0];
-    let butt= document.createElement("button");
-    var buttval= "Pay";
-    butt.setAttribute('id','button');
-    butt.innerText= buttval;
-    third.appendChild(butt); 
+    //let third= document.getElementsByClassName("final")[0];
+    //let butt= document.createElement("button");
+    //var buttval= "Pay";
+    // // butt.setAttribute('id','button');
+    // // butt.innerText= buttval;
+    // // third.appendChild(butt); 
+    let third= document.getElementById("button2");
+    third.classList.remove("hidden");
+    let fourth= document.getElementById("one");
+    fourth.classList.remove("one1");
 
 } )  
 
@@ -95,8 +99,7 @@ document.getElementById("button").addEventListener('click', function(){
 //     e.preventDefault()
 //     add()
 // };
-
-function add() {
+// function add() {
     // let result = document.getElementById('bill')
     // let str = ''
     // // creating the text element
@@ -108,4 +111,4 @@ function add() {
     // str += quant.value + " \n"
     // str += comment.value
     // result.textContent = str
-}
+//}
