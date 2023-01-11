@@ -28,6 +28,12 @@ document.getElementById("button").addEventListener('click', function(){
     child2.innerHTML=count;
     second.appendChild(child2);
     console.log(child2);
+    let third= document.getElementsByClassName("final")[0];
+    let butt= document.createElement("button");
+    var buttval= "Pay";
+    butt.setAttribute('id','button');
+    butt.innerText= buttval;
+    third.appendChild(butt); 
 
 } )  
 
