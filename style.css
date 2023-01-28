@@ -4,8 +4,9 @@
 
 * {
   font-family: 'poppins', sans-serif;
-  padding: 1px;
+  padding: 0;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .heading {
@@ -46,10 +47,6 @@ li a:hover:not(.active) {
   background-color: #a187e6;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 input[type=text],
 select,
 textarea {
@@ -83,10 +80,7 @@ label {
 }
 
 .container {
-  border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 0px;
-  margin: 0%;
 }
 
 .col-25 {
@@ -113,12 +107,12 @@ label {
 }
 
 .wishlist {
-  margin-top: 30px;
   width: 100%;
   height: 80%;
-  background-color: rgb(224, 213, 213);
   display: flex;
   flex-direction: row;
+  background-color: rgb(224, 213, 213);
+  padding: 2.7rem;
 }
 
 .section {
@@ -126,29 +120,34 @@ label {
   margin-top: 10px;
 }
 
-.inline{
+.inline {
   display: block;
-  width: 35%;
+  width: 50%;
   height: 50%;
-  float: left
-
+  float: left;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 20px;
 }
 
 /* #wishlist{
   display: flex;
 } */
 
-#billsection{
-  width: 15%;
+#billsection {
+  width: 50%;
   height: 50%;
   float: right;
-  align-items: flex-end;
-  color: #ccc;
+  color: black;
+  border-radius: 10px;
+  padding: 100px;
 }
-.hidden{
+
+.hidden {
   display: none;
 }
-#button2{
+
+#button2 {
   color: white;
   padding: 12px 20px;
   border: none;
@@ -162,8 +161,31 @@ label {
   background-color: #a187e6;
 }
 
-.one1{
+.one1 {
   text-align: center;
   margin-top: 10px;
-  display: none;
+}
+
+/* .order {
+  display: flex;
+  flex-direction: row;
+} */
+
+.final{
+  display: flex;
+  align-items: flex-end;
+}
+
+.bill{
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.bill div{
+  padding: 5px;
 }
